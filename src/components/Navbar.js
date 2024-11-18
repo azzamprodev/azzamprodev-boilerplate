@@ -16,7 +16,7 @@ export const Navbar = async () => {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <Link href="/">
-            <div className="text-xl font-bold">GrowFast</div>
+            <div className="text-xl font-bold">azzamprodev</div>
           </Link>
           <div className="flex items-center justify-center gap-2">
             <ThemeToggle />

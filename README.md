@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 AzzamProDev Boilerplate
 
-## Getting Started
+Welcome to my personal boilerplate. I built this project from scratch to streamline the setup of essential features, such as authentication using OAuth and magic links, protected routes, and database connectivity. These basics are time-consuming and repetitive with every project, so having them pre-configured saves valuable time. I update this repository from time to time and plan to add more components and features.
 
-First, run the development server:
+## ✨ Features
+
+1. **Tech Stack**
+
+   - **Next.js**: A React framework for production-grade applications.
+   - **React**: Component-based library for building user interfaces.
+   - **TailwindCSS**: A utility-first CSS framework for styling.
+   - **ShadCN UI**: Pre-configured and customizable UI component library.
+   - **Supabase**: Database and authentication services.
+
+2. **Supabase Integration**  
+   Integrated seamlessly with Supabase for database and authentication functionalities.
+
+3. **OAuth and Magic Link Authentication**  
+   Includes a minimal login form component, custom-designed for simplicity and functionality.
+
+4. **Protected Routes**  
+   Secured routes using middleware for authentication and authorization.
+
+5. **ShadCN UI**  
+   Utilizes the ShadCN component library for consistent and customizable UI elements.
+
+#
+
+## 📖 How to Use
+
+### 1️⃣ Clone the Repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/azzamprodev/azzamprodev-boilerplate
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Add Your Keys to the .env File
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Update the environment variables with your keys.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3️⃣ Configure Providers in Supabase
 
-## Learn More
+Set up the desired OAuth or Magic Link providers in your Supabase dashboard.
 
-To learn more about Next.js, take a look at the following resources:
+### 4️⃣ Navigate to src/app/auth/login/oauth.js
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Customize the providers array to fit your needs.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 5️⃣ Choose Your Providers
 
-## Deploy on Vercel
+Select the providers you configured in Supabase.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### 6️⃣ You’re All Set! 🎉

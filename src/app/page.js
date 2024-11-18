@@ -6,7 +6,9 @@ export default function page() {
   return (
     <div className="flex-grow flex items-center justify-center">
       <div className="flex gap-8 flex-col items-center justify-center text-center">
-        <h1 className="text-2xl font-bold">Full auth system with supabase</h1>
+        <h1 className="text-2xl font-bold">
+          Full auth system with supabase 🚀
+        </h1>
         <ul className="flex flex-col gap-2">
           <li className="flex items-center gap-2 text-sm">
             <Check className="h-3 w-3" />
