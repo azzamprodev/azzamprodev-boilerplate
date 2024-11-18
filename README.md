@@ -1,4 +1,4 @@
-# 🚀 AzzamProDev Boilerplate
+# 🚀 azzamprodev Boilerplate
 
 Welcome to my personal boilerplate. I built this project from scratch to streamline the setup of essential features, such as authentication using OAuth and magic links, protected routes, and database connectivity. These basics are time-consuming and repetitive with every project, so having them pre-configured saves valuable time. I update this repository from time to time and plan to add more components and features.
 
