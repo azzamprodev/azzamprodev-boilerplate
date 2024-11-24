@@ -17,10 +17,10 @@ import {
   FormItem,
   FormLabel,
   FormMessage,
-} from "./ui/form";
+} from "@/components/ui/form";
 import { Loader2 } from "lucide-react";
 import { useState } from "react";
-import OAuthButtons from "@/app/auth/login/oauth";
+import { OAuthButtons } from "./oauth";
 import * as z from "zod";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";

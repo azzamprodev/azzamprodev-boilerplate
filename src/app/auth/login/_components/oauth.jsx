@@ -1,7 +1,7 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaGithub } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-import { oAuthLogin } from "./actions";
+import { oAuthLogin } from "../actions";
 const providers = [
   {
     name: "github",
@@ -15,7 +15,7 @@ const providers = [
   },
 ];
 
-export default function OAuthButtons() {
+export const OAuthButtons = () => {
   return (
     <div className="flex gap-2 items-center justify-center w-full">
       {providers.map((provider) => (
@@ -32,4 +32,4 @@ export default function OAuthButtons() {
       ))}
     </div>
   );
-}
+};
