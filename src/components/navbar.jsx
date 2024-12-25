@@ -1,8 +1,8 @@
 import { ThemeToggle } from "./theme-toggle";
 import { createClient } from "@/utils/supabase/server";
-import { signOut } from "@/app/auth/login/actions";
 import { Button } from "./ui/button";
 import Link from "next/link";
+import { UserButton } from "./user-button";
 
 export const Navbar = async () => {
   const supabase = await createClient();
@@ -16,14 +16,12 @@ export const Navbar = async () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-4">
           <Link href="/">
-            <div className="text-xl font-bold">azzamprodev</div>
+            <div className="text-2xl font-bold">azzamprodev</div>
           </Link>
           <div className="flex items-center justify-center gap-2">
             <ThemeToggle />
             {user ? (
-              <form action={signOut}>
-                <Button>Sign out</Button>
-              </form>
+              <UserButton user={user} />
             ) : (
               <div>
                 <Link href="/auth/login">

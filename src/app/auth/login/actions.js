@@ -3,6 +3,7 @@ import { revalidatePath } from "next/cache";
 import { redirect } from "next/navigation";
 import { createClient } from "@/utils/supabase/server";
 import { getURL } from "@/utils/helpers";
+import { set } from "zod";
 
 export async function emailLogin(formData) {
   const supabase = await createClient();

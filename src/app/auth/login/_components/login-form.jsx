@@ -19,6 +19,8 @@ import {
   FormMessage,
 } from "@/components/ui/form";
 import { Loader2 } from "lucide-react";
+import Lottie from "lottie-react";
+import animationData from "/Users/azzamalzeidi/Documents/CODING/Projects/NextJs Projects/freelancing/public/confirmAnimation.json";
 import { useState } from "react";
 import { OAuthButtons } from "./oauth";
 import * as z from "zod";
@@ -63,9 +65,10 @@ export const LoginForm = () => {
         <Card>
           <CardHeader>
             <CardTitle>
-              <h1 className="text-2xl">
-                <span className="text-green-500">Email Sent</span>
+              <h1 className="text-2xl text-green-500">
+                Email Sent Successfully
               </h1>
+              <Lottie animationData={animationData} loop={false} />
             </CardTitle>
             <CardDescription>
               <p className="">
