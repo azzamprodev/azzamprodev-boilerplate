@@ -34,6 +34,16 @@ Welcome to my personal boilerplate. I built this project from scratch to streaml
 git clone https://github.com/azzamprodev/azzamprodev-boilerplate
 ```
 
+After cloning this repository, initialize a new Git repository for your project:
+
+```bash
+rm -rf .git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin https://github.com/yourusername/your-repo.git
+git push -u origin main
+
 ### 2️⃣ Add Your Keys to the .env File
 
 Update the environment variables with your keys.
@@ -51,3 +61,4 @@ Customize the providers array to fit your needs.
 Select the providers you configured in Supabase.
 
 ### 6️⃣ You’re All Set! 🎉
+```
